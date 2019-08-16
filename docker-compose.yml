@@ -1,0 +1,7 @@
+ru_face_details:
+  build: .
+  restart: always
+  volumes:
+    - "./src:/app/src"
+  ports:
+    - "127.0.0.1:3000:3000"
